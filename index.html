@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vicenzo | Portfolio</title>
+
+    <!-- Bootstrap CSS Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Jumbotron Section -->
+    <section class="jumbotron text-center">
+        <div class="jumbotron-content">
+            <img src="image/profil.png" alt="foto profil" width="200" class="rounded-circle img-thumbnail mb-4">
+            <h1 class="display-5 fw-bold">Hi, I'm Vicenzo</h1>
+            <p class="lead">Web Developer | UI/UX Enthusiast | Information Systems Student</p>
+            <a href="#projects" class="btn btn-outline-light btn-lg" role="button">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">About Me</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="card bg-dark text-light shadow-sm h-100">
+                        <div class="card-body">
+                            <h5 class="card-title mb-3 text-center">Who I Am</h5>
+                            <p class="card-text">
+                                Hi! I'm a third-year Information Systems student at Universitas Pelita Harapan Medan with a strong passion for how technology and business work together to create smart and efficient solutions. I enjoy exploring systems analysis, database design, and application development.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card bg-dark text-light shadow-sm h-100">
+                        <div class="card-body">
+                            <h5 class="card-title mb-3 text-center">My Goals</h5>
+                            <p class="card-text">
+                                I'm currently building my portfolio to document my projects, skills, and growth in tech. My goal is to contribute to impactful projects, collaborate with others, and continue developing solutions that bridge technology and business needs effectively.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">My Projects</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="image/project1.jpg" class="card-img-top" alt="Project 1" height="300px"/>
+                        <div class="card-body">
+                            <h5 class="card-title">UI/UX Design</h5>
+                            <p class="card-text">Designed a modern and responsive finance dashboard interface focused on clarity, usability, and data visibility. This project applies UX fundamentals such as layout hierarchy, color balance, and intuitive navigation. Prototyped using Figma and developed wireframes, user flows, and interactive components.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="image/project2.jpg" class="card-img-top" alt="Project 2" height="300px" />
+                        <div class="card-body">
+                            <h5 class="card-title">Artificial Intelligence</h5>
+                            <p class="card-text">Built an AI-powered chatbot capable of answering campus-related questions using natural language processing (NLP). The system leverages text classification and intent detection to provide automatic responses. Designed to help students access academic information instantly and improve campus service efficiency.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="image/project3.jpg" class="card-img-top" alt="Project 3" height="300px"/>
+                        <div class="card-body">
+                            <h5 class="card-title">Data Analyst</h5>
+                            <p class="card-text">Developed a Python-based data analysis tool that automates the process of cleaning, formatting, and visualizing datasets. Includes CSV support, summary statistics, and customizable charts. Built using Pandas and Matplotlib to help users extract insights faster with minimal manual processing.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Me</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input id="name" type="text" class="form-control" placeholder="Your Name" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input id="email" type="email" class="form-control" placeholder="Your Email" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" class="form-control" rows="4" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="text-center py-3 text-white">
+        <small>&copy; 2025 Vicenzo. All Rights Reserved.</small>
+    </footer>
+
+    <!-- Bootstrap JS Link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+
+    <!-- Popup Message -->
+    <div id="popup-message" class="popup">
+        <div class="popup-content">
+            <h4>Message Sent!</h4>
+            <p>Thank you for contacting me. I’ll get back to you soon.</p>
+            <button id="close-popup" class="btn btn-primary mt-2">Close</button>
+        </div>
+    </div>
+</body>
+</html>

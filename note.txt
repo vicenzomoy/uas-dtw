@@ -1,0 +1,2 @@
+link figma: https://www.figma.com/design/CAKe0FpwgJ7e7kznYPKWOH/Mockup-UI-Portfolio?node-id=0-1&t=U5bKVgtBNJSNnH88-1
+link github: https://vicenzomoy.github.io/uas-dtw/
